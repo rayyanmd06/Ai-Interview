@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Interview Partner</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts for modern look -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- 1. Video Background -->
+    <video autoplay muted loop id="bg-video">
+        <!-- Ensure your video file is at this path -->
+        <source src="assets/galaxy_bg.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+    </video>
+
+    <!-- 2. Overlay to darken video slightly for readability -->
+    <div class="video-overlay"></div>
+
+    <!-- 3. Main Interface Container -->
+    <div class="container">
+        
+        <header>
+            <h1>AI Interview Partner</h1>
+            <p>Master your interview skills with AI</p>
+        </header>
+
+        <!-- Setup Section: Uses 'glass-card' for the small centered box -->
+        <div id="setup-panel" class="glass-card">
+            <h2>Enter Your Role</h2>
+            <input type="text" id="role-input" placeholder="e.g. Python Developer, Sales Manager">
+            <button onclick="startInterview()">Start Interview</button>
+        </div>
+
+        <!-- Chat Section: Uses 'glass-container' for the big window -->
+        <!-- Note: 'hidden' class ensures it is invisible at start -->
+        <div id="chat-panel" class="glass-container hidden">
+            <div id="chat-box">
+                <!-- Messages will appear here -->
+            </div>
+            
+            <div class="input-area">
+                <input type="text" id="user-message" placeholder="Type your answer..." onkeypress="handleEnter(event)">
+                <button onclick="sendMessage()">Send</button>
+                <button id="mic-btn" onclick="toggleVoiceMode()" class="mic-btn">🎤</button>
+                <button onclick="endInterview()" class="end-btn">End Interview</button>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

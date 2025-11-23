@@ -1,0 +1,3 @@
+Of course. My name is Alex, and I'll be your interviewer today. I'm a senior hiring manager here.
+
+To make sure this session is as helpful as possible for you, could you please tell me your experience level as a Software Engineer, and what type of interview you'd like to practice? For example, are we focusing on a technical screen, behavioral questions, system design, or a mix of everything?
