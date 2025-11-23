@@ -149,9 +149,3 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 </div>
 ```
-
-### **How to use this:**
-1.  Create a file named `README.md` in your project folder.
-2.  Copy the entire code block above.
-3.  Paste it into the file and save.
-4.  It will render beautifully on GitHub with the badges, sections, and formatting
