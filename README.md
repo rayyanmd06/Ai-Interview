@@ -124,8 +124,17 @@ ai-interview-partner/
 
 ***
 
-## 🤝 Contribution
+DEMO
 
+<img width="1920" height="1080" alt="Screenshot 2025-11-23 225351" src="https://github.com/user-attachments/assets/378f4dff-68c6-4420-af68-950074cac856" />
+
+<img width="1920" height="1080" alt="Screenshot 2025-11-23 225421" src="https://github.com/user-attachments/assets/98b90696-2253-4f91-aaed-782c768ffc6e" />
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/fd55dcc5-062b-4e22-bb17-150c0d5400bc" />
+
+
+
+## 🤝 Contribution
 Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 1.  Fork the Project
@@ -148,4 +157,5 @@ Distributed under the MIT License. See `LICENSE` for more information.
 *Empowering careers through AI.*
 
 </div>
-```
+
+
